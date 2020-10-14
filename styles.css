@@ -66,3 +66,34 @@ nav {
     border: 2.5px solid black;
     margin: 6px;
 }
+
+.footer {
+    position: relative;
+    padding-top: 6rem;
+}
+
+.email {
+    display: block;
+    padding-top: 1rem;
+}
+
+.footer p {
+    font-family: Montserrat;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-images {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+
+.footer-image {
+    display: flex;
+    align-items: center;
+    width: 2.8rem;
+    height: 2.8rem;
+    margin-right: 1.4rem;
+}
