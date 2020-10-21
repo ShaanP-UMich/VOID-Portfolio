@@ -10,6 +10,8 @@ html {
 
 body {
     font-size: 1.6rem;
+    background-color: #0D1B2A;
+    color: #E0E1DD;
 }
 
 nav {
@@ -26,23 +28,22 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: #E5E5E5;
 }
 
 .nav-links {
     display: flex;
     list-style: none;
-    border: 0.25rem solid black;
+    border: 0.25rem solid #127475;
 }
 
 .nav-item a {
     display: inline-block;
     padding: 1.0rem 1.5rem;
     text-decoration: none;
-    color: #18A0FB;
+    color: #E0E1DD;
     font-family: Montserrat;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .logo {
@@ -52,19 +53,21 @@ nav {
 
 .logo-text {
     display: flex;
-    color: black;
+    color: #A846A0;
     font-family: Consolas, 'Courier New', monospace;
     font-style: normal;
     font-weight: normal;
     font-size: 28.4444px;
     align-items: center;
     text-align: center;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
 }
 
 .logo-image {
-    border: 2.5px solid black;
-    margin: 6px;
+    border: 2px solid #778DA9;
+    margin: 0.6rem;
+    margin-right: 2rem;
+    width: 6.5rem;
 }
 
 .footer {
@@ -75,6 +78,11 @@ nav {
 .email {
     display: block;
     padding-top: 1rem;
+}
+
+.email a {
+    text-decoration: none;
+    color: #D7D9D4;
 }
 
 .footer p {
@@ -96,4 +104,15 @@ nav {
     width: 2.8rem;
     height: 2.8rem;
     margin-right: 1.4rem;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.greeting-text {
+    font-size: 12rem;
+    font-family: Consolas, 'Courier New', monospace;
 }
