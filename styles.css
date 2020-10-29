@@ -54,7 +54,8 @@ nav {
 .logo-text {
     display: flex;
     color: #AF92C8;
-    font-family: Consolas, 'Courier New', monospace;
+    /* font-family: Consolas, 'Courier New', monospace; */
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 28.4444px;
@@ -159,6 +160,15 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 6.5rem;
+}
+
+.projects-section-row {
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5rem;
 }
 
 .projects-section-col {
@@ -167,34 +177,17 @@ nav {
     flex-direction: column;
     align-items: center;
 }
- .projects-section-desc-col {
-     display: flex;
-     flex-direction: column;
-     justify-content: space-evenly;
- }
 
- .projects-section-image-col {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
- }
-
-.projects-section-row2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.projects-section-row3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.other-sections-container {
+.projects-section-desc-col {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+}
+
+.projects-section-image-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .other-sections-row {
@@ -204,7 +197,8 @@ nav {
 
 .subsection-heading {
     color: #31649B;
-    font-family: Consolas, 'Courier New', monospace;
+    /* font-family: Consolas, 'Courier New', monospace; */
+    font-family: 'Montserrat', sans-serif;
     font-size: 7rem;
     margin-bottom: 6.5rem;
 }
@@ -217,10 +211,19 @@ nav {
 
 .project-name-text {
     color: #4281c5;
-    font-family: Consolas, 'Courier New', monospace;
-    font-size: 3rem;
+    /* font-family: Consolas, 'Courier New', monospace; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6rem;
+    margin-bottom: 3rem;
+}
+
+.project-image {
+    width: 50rem;
+    height: auto;
+    border: 3px solid #E0E1DD;
 }
 
 .project-name-text-lighter {
-    color: #5498e0;
+    font-size: 3rem;
+    color: #b4d5f8;
 }
