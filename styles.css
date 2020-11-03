@@ -101,6 +101,7 @@ nav {
 .footer {
     position: relative;
     padding-top: 6rem;
+    padding-bottom: 4rem;
 }
 
 .email {
@@ -110,7 +111,7 @@ nav {
 
 .email a {
     text-decoration: none;
-    color: #D7D9D4;
+    color: #6A9FC8;
 }
 
 .footer p {
@@ -123,7 +124,7 @@ nav {
 .footer-images {
     display: flex;
     justify-content: center;
-    padding-top: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .footer-image {
