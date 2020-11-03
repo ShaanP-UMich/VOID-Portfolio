@@ -135,6 +135,12 @@ nav {
     margin-right: 1.4rem;
 }
 
+.contact-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6rem;
+}
+
 /* Hero Section */
 
 .hero-section-row {
