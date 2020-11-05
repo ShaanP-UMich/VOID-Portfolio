@@ -5,11 +5,11 @@ const navLinks = document.querySelectorAll('.nav-items');
 allEventListners();
 
 function allEventListners() {
-    hamburger.addEventListener('click', togglerClick);
+    menu_button.addEventListener('click', togglerClick);
 }
 
 function togglerClick() {
-    hamburger.classList.toggle('toggler-open');
+    menu_button.classList.toggle('toggler-open');
     navMenu.classList.toggle('open');
 }
 
