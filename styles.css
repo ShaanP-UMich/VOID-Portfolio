@@ -81,7 +81,6 @@ nav {
     .menu-button {
         display: block;
     }
-
     .navbar {
         height: 6rem;
         position: fixed;
@@ -99,10 +98,8 @@ nav {
         max-height: 0;
         overflow: hidden;
         transition: .3s;
-
         background-color: #0D1B2A;
     }
-
     .nav-item {
         width: 100%;
         text-align: center;
